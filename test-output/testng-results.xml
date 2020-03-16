@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22710" started-at="2020-03-16T15:55:31Z" finished-at="2020-03-16T15:55:53Z">
+  <suite name="Default suite" duration-ms="13513" started-at="2020-03-16T16:54:45Z" finished-at="2020-03-16T16:54:59Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22710" started-at="2020-03-16T15:55:31Z" finished-at="2020-03-16T15:55:53Z">
+    <test name="Default test" duration-ms="13513" started-at="2020-03-16T16:54:45Z" finished-at="2020-03-16T16:54:59Z">
       <class name="maven.demo.SampleMavenProj.TestDemo">
-        <test-method status="PASS" signature="m1()[pri:0, instance:maven.demo.SampleMavenProj.TestDemo@28d25987]" name="m1" duration-ms="22652" started-at="2020-03-16T15:55:31Z" finished-at="2020-03-16T15:55:53Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:maven.demo.SampleMavenProj.TestDemo@5c3bd550]" name="m1" duration-ms="13477" started-at="2020-03-16T16:54:45Z" finished-at="2020-03-16T16:54:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
       </class> <!-- maven.demo.SampleMavenProj.TestDemo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
