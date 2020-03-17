@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13513" started-at="2020-03-16T16:54:45Z" finished-at="2020-03-16T16:54:59Z">
+  <suite name="Suite" duration-ms="139" started-at="2020-03-17T02:54:22Z" finished-at="2020-03-17T02:54:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13513" started-at="2020-03-16T16:54:45Z" finished-at="2020-03-16T16:54:59Z">
+    <test name="Test" duration-ms="139" started-at="2020-03-17T02:54:22Z" finished-at="2020-03-17T02:54:23Z">
+      <class name="maven.demo.SampleMavenProj.ThirdTest">
+        <test-method status="PASS" signature="m3()[pri:0, instance:maven.demo.SampleMavenProj.ThirdTest@5e3a8624]" name="m3" duration-ms="3" started-at="2020-03-17T02:54:23Z" finished-at="2020-03-17T02:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+      </class> <!-- maven.demo.SampleMavenProj.ThirdTest -->
+      <class name="maven.demo.SampleMavenProj.TestTest">
+        <test-method status="PASS" signature="m2()[pri:0, instance:maven.demo.SampleMavenProj.TestTest@1bce4f0a]" name="m2" duration-ms="2" started-at="2020-03-17T02:54:23Z" finished-at="2020-03-17T02:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- maven.demo.SampleMavenProj.TestTest -->
       <class name="maven.demo.SampleMavenProj.TestDemo">
-        <test-method status="PASS" signature="m1()[pri:0, instance:maven.demo.SampleMavenProj.TestDemo@5c3bd550]" name="m1" duration-ms="13477" started-at="2020-03-16T16:54:45Z" finished-at="2020-03-16T16:54:59Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:maven.demo.SampleMavenProj.TestDemo@77caeb3e]" name="m1" duration-ms="21" started-at="2020-03-17T02:54:23Z" finished-at="2020-03-17T02:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
       </class> <!-- maven.demo.SampleMavenProj.TestDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="maven.demo.SampleMavenProj.Demo">
+        <test-method status="PASS" signature="test()[pri:0, instance:maven.demo.SampleMavenProj.Demo@3bfdc050]" name="test" duration-ms="1" started-at="2020-03-17T02:54:23Z" finished-at="2020-03-17T02:54:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- maven.demo.SampleMavenProj.Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
