@@ -11,6 +11,9 @@ public class TestDemo {
 	@Test
 public static void m1() {
 	System.out.println("TestDemo class");
+	System.out.println("TestDemo class");
+	System.out.println("TestDemo class");
+	System.out.println("TestDemo class");
 	
 	}
 }
